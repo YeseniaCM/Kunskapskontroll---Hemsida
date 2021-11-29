@@ -1,0 +1,61 @@
+/* reglerna fungerar innan det blir 970px*/
+
+.site-nav{
+    background-color: antiquewhite;
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    margin: 0;
+}
+h2{
+    background-color: darkgoldenrod;
+    padding-top: 2%;
+}
+
+.site-nav ul{
+    
+}
+.site-main .container{
+    /*grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: auto; */
+    width: 80%;
+    margin: auto;
+    background-color: rgb(139, 0, 132);
+    padding-bottom: 5%;
+}
+
+.info{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    background-color: cadetblue;
+}
+.box{
+    margin: 0;
+    padding: 0 15%;
+    width: 100%;
+    background-color: blue;
+}
+
+.info1{
+}
+
+.info2{
+    background-color: chocolate;
+
+}
+.galleri{
+    display: grid;
+    flex-wrap: wrap;
+    gap: 1%;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.col{
+  padding: 0 5px;
+}
+
+.box img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+  }
