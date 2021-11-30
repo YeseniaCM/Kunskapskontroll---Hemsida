@@ -1,19 +1,62 @@
 /* reglerna fungerar innan det blir 970px*/
 
-.site-nav{
-    background-color: antiquewhite;
-    display: inline-block;
-    position: relative;
-    width: 100%;
-    margin: 0;
-}
 h2{
     background-color: darkgoldenrod;
     padding-top: 2%;
 }
+.log{
+    width: 100%;
+    position: absolute;
+    background-color: blueviolet;
+    padding: 0 45%;
+}
+.log img {
+  
+   /* left: 48%;
+    top: 0%;
+    margin-left: -50px;*/
+} 
+.site-nav{
+    width: 100%;
+    background-color: antiquewhite;
+    display: inline-block;
+    position: relative;
+    margin: 4% 0;
+    padding: 0 9%;
+}
 
-.site-nav ul{
-    
+.site-nav a{
+    display: inline-block;
+    transform: .2s;
+    font-size: 1.25rem;
+    padding: 5px 10px;
+}
+.site-nav a:hover{
+    transform: scale(1.1);
+    background-color: darkslateblue;
+}
+
+.site-nav li{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: darkkhaki;
+}
+
+.site-nav ul, li {
+    margin: 0 0px 0 0px;
+}
+.site-nav ul li:nth-child(1){
+    float: left;
+}
+.site-nav ul li:nth-child(2){
+    float: left;
+}
+
+.site-nav ul li:nth-child(3){
+    float: right;
+}
+.site-nav ul li:nth-child(4){
+    float: right;
 }
 .site-main .container{
     /*grid-template-columns: repeat(12, 1fr);
@@ -59,3 +102,4 @@ h2{
     vertical-align: middle;
     width: 100%;
   }
+ 
