@@ -1,0 +1,13 @@
+/*Regelr fungerar efter mobbilvy*/
+.site-nav ul li:nth-child(1){
+    float: left;
+    margin: 0 0 0 40%;
+    background-color: cornflowerblue;
+}
+.site-nav ul li:nth-child(2){
+    float: left;
+    margin: 0 0 0 30%;
+}
+.container{
+    background-color: cyan;
+}
