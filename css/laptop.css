@@ -106,4 +106,22 @@ h2{
     vertical-align: middle;
     width: 100%;
   }
+
+  .bokning{
+      background-color: rgb(130, 139, 0);
+    margin: 0px 0 0 0px;
+    padding: 5% 0px 0 0;
+}
+.columnbokning{
+    background-color: darkcyan;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin: 3% 0 0 0;
+}
+.bok{
+    padding: 5%;
+}
+.bok h6{
+    font-size: 1rem;
+}
  
