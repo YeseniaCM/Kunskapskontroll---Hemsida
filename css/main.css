@@ -154,16 +154,19 @@ a {
 .info{
     background-color: aquamarine;
 }
-.info i{
-    font-size: 30px;
-    
-    color: rgb(217, 255, 0);
+.info i, .bok i {
+    padding: 10px 0;
+    font-size: 2rem;
+    width: 100%;
+    text-align: center;
+    background-color: brown;
+    color: #c0c0c0;
 }
 
 .box{
     width: 80%;
     background-color: aqua;
-    margin: 10px 10%;
+    margin: 0 10%;
 }
 .col {
     width: 100%;
