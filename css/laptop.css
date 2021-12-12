@@ -38,6 +38,7 @@ h2{
     display: inline-block;
     background-color: darkkhaki;
 }
+
 .container{
     background-color: rgb(238, 255, 0);
 }
@@ -93,20 +94,27 @@ h2{
 .galleri{
     display: grid;
     flex-wrap: wrap;
-    gap: 1%;
+    gap: 0%;
     grid-template-columns: repeat(4, 1fr);
 }
 
 .col{
-  padding: 0 5px;
+  padding: 0 3% 0% 3%;
 }
 
 .box img {
+    margin-bottom: 1%;
     margin-top: 8px;
     vertical-align: middle;
     width: 100%;
+    cursor: pointer;
+    transition: transform .4s;
+    opacity: 0.8;
   }
-
+.box img:hover{
+    opacity: 1;
+    transform: scale(1.05);
+}
   .bokning{
       background-color: rgb(130, 139, 0);
     margin: 0px 0 0 0px;
