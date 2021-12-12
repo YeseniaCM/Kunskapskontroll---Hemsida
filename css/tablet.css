@@ -11,3 +11,9 @@
 .container{
     background-color: cyan;
 }
+
+header{
+    margin-bottom: 30px;
+    height: 50vh;
+    box-shadow:0px 1px 8px 1px rgba(0, 0, 0, 0.452);
+}
