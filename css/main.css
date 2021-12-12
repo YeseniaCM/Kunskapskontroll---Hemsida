@@ -154,6 +154,11 @@ a {
 .info{
     background-color: aquamarine;
 }
+.info i{
+    font-size: 30px;
+    
+    color: rgb(217, 255, 0);
+}
 
 .box{
     width: 80%;
@@ -202,7 +207,20 @@ footer .line{
     border-bottom: 1px inset #d4d4d465;
 }
 
-
+.fab {
+    font-size: 3rem;
+    color: #c0c0c0;
+    transition: transform .4s;
+}
+.fab:hover {
+    transform: scale(1.07);
+}
+.fa-facebook:hover{
+    color: #1c4397ad;
+}
+.fa-instagram:hover {
+    color:#b43063a4;
+}
 
 .copy{
     background-color: burlywood;
