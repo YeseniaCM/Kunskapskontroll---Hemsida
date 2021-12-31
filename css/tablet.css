@@ -1,19 +1,13 @@
-/*Regelr fungerar efter mobbilvy*/
+/*Regler frungerar efter mobilvy*/
 .site-nav ul li:nth-child(1){
     float: left;
-    margin: 0 0 0 40%;
-    background-color: cornflowerblue;
+    margin: 0 0 0 0%;
 }
 .site-nav ul li:nth-child(2){
     float: left;
-    margin: 0 0 0 30%;
-}
-.container{
-    background-color: cyan;
+    margin: 0 0 0 0%;
 }
 
-header{
-    margin-bottom: 30px;
-    height: 50vh;
-    box-shadow:0px 1px 8px 1px rgba(0, 0, 0, 0.452);
+.container{
 }
+
