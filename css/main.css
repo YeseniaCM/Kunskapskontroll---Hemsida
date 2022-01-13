@@ -6,7 +6,7 @@
     padding: 0;
 }
 html{
-    font-size: 16px;
+    font-size: 15px;
     font-family: 'Lato';
 }
 
@@ -17,14 +17,15 @@ html{
     background-size: cover;
     background-attachment: fixed;
     margin: 0 0 40px 0;
-    height: 420px;
+    height: 400px;
     padding: 0px 0 0px 0;
 }
 
 .log{
-    padding: 10px 0px 0 10px ;
+    padding: 5px 0px 0px 10px ;
     transition: transform .4s;
 }
+
 .log a:hover{
     transform: scale(1.05);
 }
@@ -32,10 +33,10 @@ html{
     max-width:10%;
     padding: 1px 0 0 0;
     margin: 1% auto;
-    border-bottom: 1px inset rgba(255, 255, 255, 0.685);
+    border-bottom: 1px inset rgb(219, 219, 219);
 }
 .entry-title{
-    margin-top: 15%;
+    margin-top: 13%;
 }
 
  .entry-title h6, .h21{
@@ -43,14 +44,12 @@ html{
 }
 
 .entry-title h1{
-    font-size: 40px;
     color: white;
     text-shadow: 2px 1px 0px #303030;
 }
 
 .entry-title .h21 {
-    padding: 0;
-    font-size: 1.5rem;
+    margin-top: -10px;
     text-shadow: 2px 1px 0px #303030;
 }
 
@@ -61,7 +60,7 @@ html{
     background-position:  bottom center;
     background-size: cover;
     background-attachment: fixed;
-    margin: 10px auto 30px auto;
+    margin: 30px auto 30px auto;
     padding: 150px 0 70px 0;
     border-radius: 0 0 100% 100% / 30%;
 }
@@ -76,13 +75,13 @@ html{
 }
 
 .search-box{
-    position: absolute;
+    float: right;
+    position: static;
     background: inherit;
-    top: 16%;
-    right: 3%;
+    margin-top: -8%;
+    margin-right: 20px;
     height: 30px;
     border-radius: 40px;
-    padding: 0;
 }
 
 .search-text{
@@ -95,13 +94,6 @@ html{
     padding: 0 0 0 10px;
     line-height: 40px;
     width: 0;
-}
-.meny-knapp {
-    color: inherit;
-    font-size: 2rem;
-    position: absolute;
-    top: 20px;
-    right: 20px;
 }
 
 .search-btn{
@@ -151,22 +143,22 @@ h1,h2,h3,h4,h5,h6{
     text-shadow: none;
 }
 h1 {
-    font-size: 2.3em;
+    font-size: 1.8rem;
 }
   h2 {
-    font-size: 1.8rem; 
+    font-size: 1rem; 
 }
   h3 {
-    font-size: 1.5em; 
+    font-size: 1.2rem; 
 }
   h4 {
-    font-size: 1.25em; 
+    font-size: 1rem; 
 }
   h5 {
-    font-size: 1.125em; 
+    font-size: 1.125rem; 
 }
   h6 {
-        font-size: 0.8em; ;
+        font-size: 0.6rem; ;
     }
 
 .log img{
@@ -191,17 +183,29 @@ a {
 a:hover{
     transform: scale(1.03);
 }
+
+.meny-knapp {
+    color: inherit;
+    font-size: 2rem;
+    right: 0px;
+    float: right;
+    position: absolute;
+    top: 0;
+    padding: 10px 20px 50px 30px;
+}
+
 .site-nav{
     display: none;
     position: absolute;
-    width: 104.1%;
-    margin-top: 10px;
-    left: -31px;
+    top: 0px;
+    right: 0;
+    width: 100%;
 }
 
 .site-nav a{
-    display: block;
+    display: inherit;
     padding: 20px;
+    margin-left: -31px;
     background-color: rgb(255, 255, 255);
     color: black;
     text-transform: uppercase;
@@ -247,8 +251,7 @@ a:hover{
     top: 50%;
     width: auto;
     padding: 16px;
-    margin-top: -22px;
-    color: white;
+    color: rgb(0, 0, 0);
     font-weight: bold;
     font-size: 18px;
     transition: 0.6s ease;
@@ -262,7 +265,8 @@ a:hover{
   }
   
   .prev:hover, .next:hover {
-    background-color: rgba(0,0,0,0.8);
+      color: white;
+    background-color: rgba(0, 0, 0, 0.8);
   }
 
   .active, .dot:hover {
@@ -318,7 +322,7 @@ a:hover{
 .lank{
   font-size: 16px;
   color: rgb(0, 0, 0);
-  width: 20%;
+  width: 40%;
   padding: 5px;
   margin: 0 auto 30px auto;
   text-align: center;
@@ -335,8 +339,8 @@ a:hover{
     text-align: center;
 }
 .links{
-    background-color: #2f4e27;
-    margin: 0 0px 0 -18px;
+    background-color: #4a5747;
+    margin: 0px -20px;
     padding: 10px 0px 10px 0px;
     text-transform: uppercase;
     font-weight: 200;
@@ -364,7 +368,7 @@ footer {
     color: #D2D2D2;
     display: inline-block;
     width: 100%;
-    margin: 40px auto 0 0 ;
+    margin: 40px auto  ;
     box-shadow: 0px 0px 30px 0px rgba(119,119,119,0.07);
 }
 footer a {
