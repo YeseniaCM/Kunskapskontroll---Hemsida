@@ -26,7 +26,7 @@ html{
     transition: transform .4s;
 }
 
-.log a:hover{
+.log:hover{
     transform: scale(1.05);
 }
 .line{
@@ -49,7 +49,6 @@ html{
 }
 
 .entry-title .h21 {
-    margin-top: -10px;
     text-shadow: 2px 1px 0px #303030;
 }
 
@@ -69,6 +68,7 @@ html{
 }
 
 .entry-title2 h1{
+    margin: 0;
     font-size: 40px;
     color: white;
     text-shadow: 2px 1px 0px #303030;
@@ -135,27 +135,27 @@ img{
 
 h1,h2,h3,h4,h5,h6{
     color: black;
+    background-color: thistle;
     font-family: 'Merriaeather';
     font-weight: 200;
     text-align: center;
     text-transform: uppercase;
-    margin-bottom: 10px;
     text-shadow: none;
 }
 h1 {
     font-size: 1.8rem;
 }
   h2 {
-    font-size: 1rem; 
+    font-size: 1.1rem; 
 }
   h3 {
-    font-size: 1.2rem; 
-}
-  h4 {
     font-size: 1rem; 
 }
+  h4 {
+    font-size: 0.9rem; 
+}
   h5 {
-    font-size: 1.125rem; 
+    font-size: 0.7rem; 
 }
   h6 {
         font-size: 0.6rem; ;
@@ -221,7 +221,7 @@ a:hover{
 }
 
 .info{
-    padding: 0 30px 0 30px;
+    padding: 10px 30px 0 30px;
     background-color: aquamarine;
 }
 .info i, .bok i {
@@ -241,7 +241,9 @@ a:hover{
     position: relative;
     margin:auto;
   }
-  
+  .box{
+      margin: 15px 0 0 0;
+  }
   .bildbox{
     display: none;
 }
