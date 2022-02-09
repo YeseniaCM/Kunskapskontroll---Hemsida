@@ -334,10 +334,24 @@ textarea {
     width: 90%;
     color: inherit;
 }
+.box2 img{
+    width: 100%;
+    border-radius: 50%;
+    height: 70%;
+}
+
+.hist{
+    display: inline-block;
+    background-color: burlywood;
+
+    max-width: 100%;
+    margin-top: 10px;
+}
 
 .bokning{
     padding: 0 30px 0 30px;
 }
+
 .lank{
   font-size: 16px;
   color: rgb(0, 0, 0);
@@ -351,6 +365,33 @@ textarea {
 
 .lank:hover{
     background-color: #dbcc7873;
+}
+
+.w25 {
+    max-width: 100%;
+    margin: 5px 10px 0px 0px;
+}
+
+.w30 {
+    margin: 5px 10px 0px 0px;
+    max-width: 100%;
+}
+
+.laserinfo{
+    display: grid;
+    margin: 10px 0 0 0;
+    text-align: center;
+}
+.laserinfo p {
+    padding: 0 10px;
+}
+
+.laserinfo img{
+  display: none;
+}
+
+.laserinfo i {
+    font-size: 30px;
 }
 
 .col {

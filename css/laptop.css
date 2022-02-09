@@ -86,9 +86,9 @@
     padding: 30px 0 0px 0 ;
 }
 .box .insta, .face{
-    float: right;
-     margin: 0 auto 0px 20px;
-     padding: 20px 80px 0 80px;
+    display: inline-block;
+     margin: 0 auto 0px 0px;
+     padding: 20px 0px 0 20%;
      font-size: 80px;
  }
  .int{
@@ -108,18 +108,70 @@
     background-color: cadetblue;
 }
 .box{
+    padding: 10px;
     margin: 0;
     width: 100%;
     background-color: blue;
 }
 
-.info1{
+.box2{
+    grid-template-columns: 33% 33% 33%;
+}
+.con{
+    background-color: brown;
+    margin: 0 0px 0px 10px;
+}
+.con h5 {
+    background-color: chartreuse;
 }
 
-.info2{
-    background-color: chocolate;
-
+.hist{
+    display: inline-block;
+    background-color: burlywood;
+    max-width: 100%;
+    padding: 0 10%;
+    margin-top: 10px;
 }
+.bhog {
+    display: block;
+    max-width: 40%;
+    float: right;
+    margin: 5px 10px 0px 5px;
+}
+
+.bvan {
+    margin: 5px 10px 0px 10px;
+    float: left;
+    max-width: 40%;
+}
+.galleritat{
+    display: none;
+}
+.laserinfo img{
+    background-color: burlywood;
+    display: inline;
+    margin: 00px 0 0 0;
+    padding: 0px 20px 0 20px;
+    width: 100%;
+}
+.laser{
+    background-color: cadetblue;
+    grid-template-columns: 33.3% 33.4% 33.3%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.laser img{
+    display: block;
+    padding: 5% 5%;
+    align-items: center;
+}
+.las2{
+    padding-top: 20%;
+}
+.tatto{
+    grid-template-columns: 100%;
+}
+
 .galleri {
     max-width: 50%;
   }
@@ -132,19 +184,16 @@
   padding: 0 3% 0% 3%;
 }
 
-.box img {
-    margin-bottom: 1%;
-    margin-top: 8px;
-    vertical-align: middle;
+.care img {
+    background-color: cadetblue;
+    margin-top: 20px;
     width: 100%;
-    cursor: pointer;
-    transition: transform .4s;
-    opacity: 0.8;
+    max-height: 50%;
   }
-.box img:hover{
-    opacity: 1;
-    transform: scale(1.05);
-}
+  .care .box{
+      padding: 10px;
+  }
+  
   .bokning{
       background-color: rgb(130, 139, 0);
     margin: 0px 0 0 0px;
