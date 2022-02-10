@@ -11,6 +11,10 @@
     height: 700px;
 }
 
+.container{
+    margin: 0px 40px;
+}
+
 .search-box{
     position: absolute;
     background: inherit;
@@ -53,10 +57,6 @@
     display: inline-block;
 }
 
-.container{
-    /*background-color: rgb(238, 255, 0);*/
-}
-
 .site-nav ul, li {
     margin: 0 0px 0 0px;
 }
@@ -85,17 +85,22 @@
     float: left;
     padding: 30px 0 0px 0 ;
 }
-.box .insta, .face{
-    display: inline-block;
-     margin: 0 auto 0px 0px;
-     padding: 20px 0px 0 20%;
-     font-size: 80px;
- }
+ 
  .int{
      padding: 50px 0;
      text-align: center;
  }
- 
+ .int, .inl{
+     margin: 20px 0;
+ }
+
+ .box2 img{
+    height: 80%;
+    padding: 20px 30px;
+}
+ .lank{
+     width: 15%;
+  }
 
  .insta p,
  .face p{
@@ -103,31 +108,33 @@
  }
 
 .info{
+    margin: 0;
     display: grid;
     grid-template-columns: 50% 50%;
-    background-color: cadetblue;
+}
+.info1 p{
+    width: 63%;
+    margin: 0 auto;
+}
+.info1 h3{
+    margin-bottom: 10px;
 }
 .box{
-    padding: 10px;
-    margin: 0;
+    padding: 20px 40px 0px 40px;
     width: 100%;
-    background-color: blue;
 }
 
 .box2{
     grid-template-columns: 33% 33% 33%;
+    margin-bottom: 5%;
 }
 .con{
-    background-color: brown;
     margin: 0 0px 0px 10px;
-}
-.con h5 {
-    background-color: chartreuse;
+    
 }
 
 .hist{
     display: inline-block;
-    background-color: burlywood;
     max-width: 100%;
     padding: 0 10%;
     margin-top: 10px;
@@ -147,23 +154,31 @@
 .galleritat{
     display: none;
 }
+
 .laserinfo img{
-    background-color: burlywood;
     display: inline;
     margin: 00px 0 0 0;
     padding: 0px 20px 0 20px;
     width: 100%;
 }
+.pictreat{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+}
+
+.rad img{
+    padding: 20px;
+}
 .laser{
-    background-color: cadetblue;
+    margin-top: 30px;
     grid-template-columns: 33.3% 33.4% 33.3%;
     text-align: center;
-    margin-bottom: 20px;
 }
 .laser img{
     display: block;
-    padding: 5% 5%;
-    align-items: center;
+    max-height: 100%;
+    padding: 0 20px ;
+    margin: auto;
 }
 .las2{
     padding-top: 20%;
@@ -184,31 +199,24 @@
   padding: 0 3% 0% 3%;
 }
 
+
 .care img {
-    background-color: cadetblue;
-    margin-top: 20px;
-    width: 100%;
-    max-height: 50%;
+    margin: 0 auto;
+    padding: 30px 40px 0 40px;
   }
   .care .box{
-      padding: 10px;
+      padding: 10px 30px 0 30px;
   }
   
-  .bokning{
-      background-color: rgb(130, 139, 0);
-    margin: 0px 0 0 0px;
-    padding: 5% 0px 0 0;
-}
+
 .columnbokning{
-    background-color: darkcyan;
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    margin: 3% 0 0 0;
+    margin: 0% 0 0 0;
 }
-.bok{
-    padding: 5%;
-}
+
 .bok h6{
     font-size: 1rem;
 }
+
  
