@@ -1,0 +1,218 @@
+.log{
+    margin: 0  42%;
+}
+
+.log img {
+    display: block;
+} 
+
+.headerbild{
+    height: 700px;
+}
+
+.container{
+    margin: 0px 40px;
+}
+
+.search-box{
+    position: absolute;
+    background: inherit;
+    top: 16%;
+    right: 3%;
+    height: 30px;
+    border-radius: 40px;
+    padding: 0;
+    margin-top: 0;
+}
+
+.meny-knapp {
+   Display:none;
+}
+
+.site-nav a{
+    position: relative;
+    display: block;
+    margin-left: 0px;
+    transform: .2s;
+    font-size: 1.25rem;
+    padding: 10px 20px;
+    background-color: rgba(255, 255, 255, 0.329);
+}
+.site-nav{
+    display: block;
+    margin: 60px 0 0  0;
+    position: absolute;
+    width: 100;
+    left: -31px;
+    top: 0px;
+}
+.site-nav a:hover{
+    transform: scale(1.02);
+    background-color: rgba(180, 179, 179, 0.397);
+    padding: auto;
+}
+
+.site-nav li{
+    display: inline-block;
+}
+
+.site-nav ul, li {
+    margin: 0 0px 0 0px;
+}
+
+.site-nav ul li:nth-child(1){
+    float: left;
+    margin: 0 0 0 100px ;
+}
+
+.site-nav ul li:nth-child(2){
+    float: left;
+    margin: 0 0 0 0% ;
+}
+
+.site-nav ul li:nth-child(3){
+    float: right;
+    margin: 0 100px 0 auto;
+    position: relative;
+}
+.site-nav ul li:nth-child(4){
+    float: right;
+    margin: 0 0% 0 0% ;
+}
+
+.google{
+    float: left;
+    padding: 30px 0 0px 0 ;
+}
+ 
+ .int{
+     padding: 50px 0;
+     text-align: center;
+ }
+ .int, .inl{
+     margin: 20px 0;
+ }
+
+ .box2 img{
+    height: 80%;
+    padding: 20px 30px;
+}
+
+ .insta p,
+ .face p{
+     font-size: 17px;
+ }
+
+.info{
+    margin: 0;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.info1 p{
+    width: 63%;
+    margin: 0 auto;
+}
+.info1 h3{
+    margin-bottom: 10px;
+}
+.box{
+    padding: 20px 40px 0px 40px;
+    width: 100%;
+}
+
+.box2{
+    grid-template-columns: 33% 33% 33%;
+    margin-bottom: 5%;
+}
+.con{
+    margin: 0 0px 0px 10px;
+    
+}
+
+.hist{
+    display: inline-block;
+    max-width: 100%;
+    padding: 0 10%;
+    margin-top: 10px;
+}
+.bhog {
+    display: block;
+    max-width: 40%;
+    float: right;
+    margin: 5px 10px 0px 5px;
+}
+
+.bvan {
+    margin: 5px 10px 0px 10px;
+    float: left;
+    max-width: 40%;
+}
+.galleritat{
+    display: none;
+}
+
+.laserinfo img{
+    display: inline;
+    margin: 00px 0 0 0;
+    padding: 0px 20px 0 20px;
+    width: 100%;
+}
+.pictreat{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+}
+
+.rad img{
+    padding: 20px;
+}
+.laser{
+    margin-top: 30px;
+    grid-template-columns: 33.3% 33.4% 33.3%;
+    text-align: center;
+}
+.laser img{
+    display: block;
+    max-height: 100%;
+    padding: 0 20px ;
+    margin: auto;
+}
+.las2{
+    padding-top: 20%;
+}
+.tatto{
+    grid-template-columns: 100%;
+}
+
+.galleri {
+    max-width: 50%;
+  }
+
+.prev, .next {
+  margin: 0 -24px;
+}
+
+.col{
+  padding: 0 3% 0% 3%;
+}
+
+
+.care img {
+    margin: 0 auto;
+    padding: 30px 40px 0 40px;
+  }
+  .care .box{
+      padding: 10px 30px 0 30px;
+  }
+  
+
+.columnbokning{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin: 0% 0 0 0;
+}
+
+.bok h6{
+    font-size: 1rem;
+}
+
+ 
